@@ -1,11 +1,11 @@
 {
   "name": "ngrok Client",
-  "version": "2.1.8",
+  "version": "2.1.9",
   "slug": "ngrok",
-  "description": "A ngrok client for Hass.io",
+  "description": "A ngrok client for Home Assistant",
   "init": false,
   "webui": "http://[HOST]:[PORT:4040]",
-  "url": "https://github.com/dy1io/hassio-addons",
+  "url": "https://github.com/cool0707/hassio-addons",
   "stage": "deprecated",
   "arch": [
     "aarch64",
@@ -39,7 +39,7 @@
   "schema": {
     "log_level": "list(crit|warn|error|info|debug)",
     "auth_token": "str?",
-    "region": "list(us|eu|ap|au|sa|jp|in)?",
+    "region": "list(us|eu|ap|au|sa|jp|in|us-cal-1)?",
     "tunnels": [
       {
         "name": "str",

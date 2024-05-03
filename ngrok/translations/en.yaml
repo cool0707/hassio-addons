@@ -1,0 +1,5 @@
+configuration:
+  name: ngrok Client
+  description: A ngrok client for Home Assistant
+  log_level:
+    name: Log level
